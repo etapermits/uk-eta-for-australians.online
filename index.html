@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UK ETA for Australians – UK Entry Authorisation | ETA Permits</title>
+<meta name="description" content="Australian citizens need a UK ETA before travelling to the United Kingdom. Apply online – fast, simple and secure. Expert review before every submission.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --cream:#fdf6ed;
+  --crimson:#9b1c1c;
+  --crimson-hover:#b52020;
+  --dark:#2c1a1a;
+  --mid:#6b3a3a;
+  --border:#e8d5c4;
+  --white:#ffffff;
+  --light-bg:#f7efe3;
+  --navy:#1a2744;
+}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--dark);font-family:'Source Sans 3',sans-serif;line-height:1.7;font-size:16px}
+
+nav{background:var(--white);border-bottom:1.5px solid var(--border);padding:14px 48px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+.nav-brand{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:700;color:var(--crimson);text-decoration:none;letter-spacing:0.02em}
+.nav-sub{font-size:0.75rem;color:var(--mid);letter-spacing:0.1em;text-transform:uppercase;margin-top:2px}
+
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:480px;overflow:hidden}
+.hero-left{background:var(--navy);padding:72px 56px;display:flex;flex-direction:column;justify-content:center}
+.hero-right{position:relative;overflow:hidden;min-height:320px}
+.badge{display:inline-block;background:rgba(255,255,255,0.15);color:rgba(255,255,255,0.9);font-size:0.7rem;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;padding:5px 14px;border-radius:2px;margin-bottom:20px;width:fit-content;border:1px solid rgba(255,255,255,0.2)}
+.hero-left h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,3.5vw,3.2rem);font-weight:700;color:var(--white);line-height:1.1;margin-bottom:18px}
+.hero-left h1 em{color:#f0c080;font-style:normal}
+.hero-left p{font-size:1rem;color:rgba(255,255,255,0.75);margin-bottom:32px;max-width:420px}
+.cta-main{display:inline-block;background:var(--crimson);color:var(--white);font-family:'Cormorant Garamond',serif;font-size:1.1rem;padding:15px 40px;border-radius:3px;text-decoration:none;border:2px solid var(--crimson);letter-spacing:0.02em;transition:all 0.25s;width:fit-content}
+.cta-main:hover{background:transparent;color:var(--white);border-color:var(--white)}
+
+.trust-bar{background:var(--light-bg);border-bottom:1px solid var(--border);padding:16px 48px}
+.trust-inner{max-width:1000px;margin:0 auto;display:flex;justify-content:center;gap:40px;flex-wrap:wrap}
+.trust-item{display:flex;align-items:center;gap:8px;font-size:0.82rem;font-weight:600;color:var(--crimson);letter-spacing:0.05em}
+
+.content{max-width:960px;margin:0 auto;padding:0 48px}
+.section{padding:60px 0}
+.section-inner{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.section-inner.reverse{direction:rtl}
+.section-inner.reverse > *{direction:ltr}
+.section-text h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:700;color:var(--dark);margin-bottom:16px;line-height:1.2}
+.section-text h2 em{color:var(--crimson);font-style:normal}
+.section-text p{color:var(--mid);margin-bottom:14px;font-size:0.97rem}
+.section-text p:last-child{margin-bottom:0}
+.section-img{border-radius:6px;overflow:hidden;min-height:280px}
+
+.divider{border:none;border-top:1px solid var(--border)}
+
+.facts-row{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:32px}
+.fact-card{background:var(--white);border:1px solid var(--border);border-top:3px solid var(--crimson);border-radius:4px;padding:24px 20px;text-align:center}
+.fact-card .fact-val{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:700;color:var(--crimson);line-height:1}
+.fact-card .fact-label{font-size:0.82rem;color:var(--mid);margin-top:6px;letter-spacing:0.04em}
+
+.who-section{background:var(--light-bg);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:60px 0}
+.who-inner{max-width:960px;margin:0 auto;padding:0 48px}
+.who-inner h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:700;color:var(--dark);margin-bottom:12px}
+.who-inner p{color:var(--mid);margin-bottom:20px}
+.who-link{color:var(--crimson);font-weight:600;text-decoration:none;border-bottom:1.5px solid var(--crimson)}
+.who-link:hover{color:var(--crimson-hover)}
+.who-note{background:var(--white);border:1px solid var(--border);border-left:3px solid var(--crimson);border-radius:3px;padding:16px 20px;margin-top:8px;font-size:0.92rem;color:var(--mid)}
+
+.steps-section{padding:60px 0}
+.steps-inner{max-width:960px;margin:0 auto;padding:0 48px}
+.steps-inner h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:700;color:var(--dark);margin-bottom:8px}
+.steps-inner > p{color:var(--mid);margin-bottom:32px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;position:relative}
+.steps::before{content:'';position:absolute;top:28px;left:calc(16.6% + 14px);right:calc(16.6% + 14px);height:2px;background:var(--border);z-index:0}
+.step{text-align:center;padding:0 16px;position:relative;z-index:1}
+.step-num{width:56px;height:56px;background:var(--crimson);color:var(--white);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.4rem;margin:0 auto 16px;border:3px solid var(--cream)}
+.step h3{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:700;color:var(--dark);margin-bottom:8px}
+.step p{font-size:0.88rem;color:var(--mid)}
+
+.faq-section{background:var(--white);border-top:1px solid var(--border);padding:60px 0}
+.faq-inner{max-width:760px;margin:0 auto;padding:0 48px}
+.faq-inner h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3vw,2.4rem);font-weight:700;color:var(--dark);margin-bottom:32px}
+.faq-item{border-bottom:1px solid var(--border);padding:20px 0}
+.faq-item:first-of-type{border-top:1px solid var(--border)}
+.faq-q{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:700;color:var(--dark);margin-bottom:8px}
+.faq-a{color:var(--mid);font-size:0.95rem}
+
+.cta-section{padding:60px 48px;max-width:960px;margin:0 auto}
+.cta-block{background:var(--navy);border-radius:6px;padding:60px 48px;text-align:center}
+.cta-block h2{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:700;color:var(--white);margin-bottom:12px}
+.cta-block p{color:rgba(255,255,255,0.7);max-width:480px;margin:0 auto 32px}
+.cta-outline{display:inline-block;border:2px solid var(--white);color:var(--white);font-family:'Cormorant Garamond',serif;font-size:1.1rem;padding:15px 44px;border-radius:3px;text-decoration:none;transition:all 0.25s}
+.cta-outline:hover{background:var(--white);color:var(--navy)}
+
+footer{background:var(--light-bg);border-top:1.5px solid var(--border);padding:28px 48px;text-align:center;font-size:0.82rem;color:var(--mid)}
+footer a{color:var(--crimson);text-decoration:none}
+footer a:hover{text-decoration:underline}
+.footer-links{display:flex;justify-content:center;gap:32px;margin-bottom:10px;flex-wrap:wrap}
+
+@media(max-width:768px){
+  .hero{grid-template-columns:1fr}
+  .hero-right{display:none}
+  .hero-left{padding:48px 28px}
+  .section-inner{grid-template-columns:1fr}
+  .section-inner.reverse{direction:ltr}
+  .facts-row{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr;gap:24px}
+  .steps::before{display:none}
+  .content,.who-inner,.steps-inner,.faq-inner,.cta-section{padding-left:24px;padding-right:24px}
+  nav{padding:12px 20px}
+  .trust-inner{gap:20px}
+  footer{padding:24px 20px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div>
+    <a class="nav-brand" href="https://www.etapermits.com">ETA Permits</a>
+    <div class="nav-sub">United Kingdom &nbsp;·&nbsp; United States &nbsp;·&nbsp; Canada &nbsp;·&nbsp; European Union</div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-left">
+    <div class="badge">Australians · UK Entry Authorisation</div>
+    <h1>Australians now need<br>a <em>UK ETA</em> to visit Britain</h1>
+    <p>The UK Electronic Travel Authorisation is required for all Australian passport holders before boarding a flight to the United Kingdom. Fast, secure applications with expert review before every submission.</p>
+  </div>
+  <div class="hero-right">
+    <img src="https://images.unsplash.com/photo-1520986606214-8b456906c813?q=80&w=1200&auto=format&fit=crop" alt="Scottish Highlands misty mountains and loch" style="width:100%;height:100%;object-fit:cover;display:block;min-height:320px">
+  </div>
+</div>
+
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item">✓ &nbsp;Expert Review</div>
+    <div class="trust-item">✓ &nbsp;Fast Processing</div>
+    <div class="trust-item">✓ &nbsp;Individuals &amp; Families</div>
+  </div>
+</div>
+
+<div class="content">
+  <div class="section">
+    <div class="section-inner">
+      <div class="section-text">
+        <h2>What is the <em>UK ETA?</em></h2>
+        <p>The UK Electronic Travel Authorisation (ETA) is a pre-travel permission introduced by the United Kingdom for visitors from eligible countries — including Australia — who previously could travel to Britain without any prior authorisation.</p>
+        <p>The UK ETA is not a visa. It is an automated electronic check linked to your Australian passport that must be obtained before you travel. Once approved, it is valid for multiple trips over two years or until your passport expires, whichever comes first.</p>
+        <p>UK Border Force retains the right to refuse admission on arrival even with an approved ETA, but holding a valid authorisation is a strict requirement before boarding any flight or vessel bound for the United Kingdom.</p>
+      </div>
+      <div class="section-img">
+        <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=870&auto=format&fit=crop" alt="London Westminster Bridge and Thames at dusk" style="width:100%;height:100%;object-fit:cover;display:block;min-height:280px;border-radius:6px">
+      </div>
+    </div>
+
+    <div class="facts-row">
+      <div class="fact-card">
+        <div class="fact-val">2 yrs</div>
+        <div class="fact-label">Validity period</div>
+      </div>
+      <div class="fact-card">
+        <div class="fact-val">6 months</div>
+        <div class="fact-label">Maximum stay per visit</div>
+      </div>
+      <div class="fact-card">
+        <div class="fact-val">0–72 hrs</div>
+        <div class="fact-label">Typical processing time</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="who-section">
+  <div class="who-inner">
+    <h2>Do Australians need a UK ETA?</h2>
+    <p>Yes. Australian citizens travelling to the United Kingdom for tourism, business, or transit are now required to hold a valid UK ETA before departure. This is a relatively new requirement — Australians previously could visit Britain without any pre-travel authorisation.</p>
+    <p>A UK ETA is not required if you already hold a valid UK visa. Australians who have previously been refused entry to the UK should check their eligibility carefully before applying for an ETA.</p>
+    <p>Not sure if you qualify? <a class="who-link" href="https://www.etapermits.com">Visit ETA Permits</a> and click <strong>Your Journey Begins Here</strong> — you can confirm your eligibility instantly on the application page.</p>
+    <div class="who-note">
+      <strong>Good to know:</strong> The UK ETA covers England, Scotland, Wales, and Northern Ireland under a single authorisation. If your trip also takes you to the Republic of Ireland, note that Ireland has its own separate entry requirements.
+    </div>
+  </div>
+</div>
+
+<div class="steps-section">
+  <div class="steps-inner">
+    <h2>How to apply</h2>
+    <p>Our straightforward three-step process ensures your UK ETA application is accurate, complete, and submitted correctly.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Complete the form</h3>
+        <p>Enter your personal details, Australian passport information, and travel plans on our secure online form. Takes around 10 minutes and covers the whole family in one session.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Expert review</h3>
+        <p>Our team checks every application for accuracy before submission to the UK Home Office — minimising errors and the risk of refusal.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Receive your ETA</h3>
+        <p>Your approved UK ETA is delivered by email and linked electronically to your Australian passport. No printing required — present your passport at check-in and at the UK border.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="content">
+  <div class="section">
+    <div class="section-inner reverse">
+      <div class="section-text">
+        <h2>Discovering Britain<br>with your <em>family?</em></h2>
+        <p>From the streets of London to the lochs of Scotland and the coastlines of Wales, Britain has something for every traveller. Every member of your group — including children and infants — needs their own UK ETA linked to their own passport.</p>
+        <p>ETA Permits makes it simple to apply for the whole family in one session. Our team reviews all applications together before submission, and our fully inclusive pricing means no unexpected charges along the way.</p>
+        <a class="cta-main" href="https://www.etapermits.com" style="margin-top:8px">Apply for your family</a>
+      </div>
+      <div class="section-img">
+        <img src="https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?q=80&w=870&auto=format&fit=crop" alt="Cotswolds English countryside village" style="width:100%;height:100%;object-fit:cover;display:block;min-height:280px;border-radius:6px">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="faq-section">
+  <div class="faq-inner">
+    <h2>Frequently asked questions</h2>
+    <div class="faq-item">
+      <div class="faq-q">When did the UK ETA requirement start for Australians?</div>
+      <div class="faq-a">The UK ETA was introduced in phases from 2024. Australian citizens are now required to hold a valid UK ETA before travelling to the United Kingdom, including for transit through UK airports.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How long can Australians stay in the UK on an ETA?</div>
+      <div class="faq-a">Each visit to the United Kingdom under a UK ETA is limited to six months. The ETA itself remains valid for two years or until your passport expires, allowing multiple trips within that period.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Do I need a UK ETA to transit through a British airport?</div>
+      <div class="faq-a">In most cases yes — even if you are transiting through a UK airport without leaving the international zone, a valid UK ETA is generally required. Check the full details at ETA Permits for your specific itinerary.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can I work or study in the UK on an ETA?</div>
+      <div class="faq-a">No. The UK ETA is for tourism, visiting family and friends, short business trips, and transit only. If you intend to work or study in the UK you will require a separate visa.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Do Australian children need their own UK ETA?</div>
+      <div class="faq-a">Yes. Every traveller — including infants and children — requires their own individual UK ETA linked to their own passport. ETA Permits makes it easy to apply for all family members at once.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Do I need to print my UK ETA?</div>
+      <div class="faq-a">No. The UK ETA is linked electronically to your passport. You do not need to carry a printed copy — simply present your passport at check-in and at the UK border.</div>
+    </div>
+  </div>
+</div>
+
+<div class="cta-section">
+  <div class="cta-block">
+    <h2>Ready to apply for your UK ETA?</h2>
+    <p>Fast, simple and fully inclusive pricing. Expert review before every submission to the UK Home Office.</p>
+    <a class="cta-outline" href="https://www.etapermits.com">Begin your Journey…</a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="https://www.etapermits.com/privacy">Privacy Policy</a>
+    <a href="https://www.etapermits.com/terms">Terms &amp; Conditions</a>
+    <a href="mailto:info@etapermits.com">info@etapermits.com</a>
+  </div>
+  <div>© 2026 ETA Permits. All rights reserved. &nbsp;|&nbsp; This is an independent application assistance service and is not affiliated with any government body.</div>
+</footer>
+
+</body>
+</html>
